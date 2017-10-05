@@ -14,3 +14,14 @@ D:\HotelReservationEngine\HotelReservationEngine\HotelReservationEngine\bin\Debu
 D:\HotelReservationEngine\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.runtimeconfig.dev.json
 D:\HotelReservationEngine\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.dll
 D:\HotelReservationEngine\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.pdb
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.csprojResolveAssemblyReference.cache
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.csproj.CoreCompileInputs.cache
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.AssemblyInfoInputs.cache
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.AssemblyInfo.cs
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.dll
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\obj\Debug\netcoreapp2.0\HotelReservationEngine.pdb
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.deps.json
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.runtimeconfig.json
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.runtimeconfig.dev.json
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.dll
+D:\HotelReservation\HotelReservationEngine\HotelReservationEngine\bin\Debug\netcoreapp2.0\HotelReservationEngine.pdb

@@ -5,9 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Images\**" />
+    <Content Remove="wwwroot\Images\**" />
+    <EmbeddedResource Remove="wwwroot\Images\**" />
+    <None Remove="wwwroot\Images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
     <Folder Include="wwwroot\Css\" />
     <Folder Include="wwwroot\Js\" />
-    <Folder Include="wwwroot\Images\" />
     <Folder Include="wwwroot\HtmlPages\" />
   </ItemGroup>
 

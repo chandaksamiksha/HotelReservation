@@ -12534,7 +12534,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\schandak\\.nuget\\packages\\": {},
+    "C:\\Users\\aprakash\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12543,17 +12543,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Final Project\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\HotelReservationEngine.csproj",
+      "projectUniqueName": "D:\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\HotelReservationEngine.csproj",
       "projectName": "HotelReservationEngine",
-      "projectPath": "D:\\Final Project\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\HotelReservationEngine.csproj",
-      "packagesPath": "C:\\Users\\schandak\\.nuget\\packages\\",
-      "outputPath": "D:\\Final Project\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\obj\\",
+      "projectPath": "D:\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\HotelReservationEngine.csproj",
+      "packagesPath": "C:\\Users\\aprakash\\.nuget\\packages\\",
+      "outputPath": "D:\\HotelReservation\\HotelReservationEngine\\HotelReservationEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\schandak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aprakash\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

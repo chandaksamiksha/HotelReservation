@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hotel Express</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    </br>
+    </br>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Hotel Express</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                </ul>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Account <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Create An Account</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Manage Trips<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"></a>View My Bookings</li>
+                        <li><a href="#"></a>Manage My Hotel</li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"></a>Customer Support</li>
+                        <li><a href="#"></a>Feedback</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div id="hotel">
+            <form id="hotelForm">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <!--Going To-->
+                        <div classs="col-md-10">
+                            <div class="form-group">
+                                <label for="from">Going To</label>
+                                <input type="text" class="form-control placeholderfont" id="from" placeholder="City,Landmark,Address,Station Name,Hotel Name..">
+                            </div>
+                        </div>
+
+                        <!--Check In Date-->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Check-In</label>
+                                    <div class="input-group">
+
+                                        <input class="datePicker placeholderfont" type="date" name="checkInDate" placeholder="dd-mm-yyyy" id="datepickerId">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--Check Out Date-->
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Check Out</label>
+                                    <div class="input-group">
+                                        <span></span>
+                                        <input class="datePicker placeholderfont" type="date" name="checkOutdate" placeholder="dd-mm-yyyy" id="datepickerId">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!--Adults Option List-->
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label for="adults">Adults(18+)</label>
+                                <select class="form-control" id="adults">
+                                    <option selected="selected" value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9+">9+</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!--Children-->
+                        <div class="col-md-2">
+                            <label for="children">Children(0-17)</label>
+                            <select name="child" class="form-control" id="children">
+                                <option selected="selected" value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-1">
+                            <label for="age">Age</label>
+                            <select name="age" class="form-control" id="ageChild">
+                                <option selected="selected" value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                            </select>
+                            <div id="addElement" style="border: 1px solid black"></div>
+                        </div>
+
+                        <!--Search Button-->
+                        <div class="col-md-12">
+                            <button type="submit" class="searchButton">Search</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
